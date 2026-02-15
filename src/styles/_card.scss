@@ -1,6 +1,6 @@
 .card {
   width: $card-width;
-  padding: 16px;
+  padding: $card-padding;
   background: #fff;
   border-radius: 5px;
   box-sizing: border-box;
@@ -79,7 +79,7 @@
       color: $blue;
     }
   }
-  
+
   &:hover .card__title {
     color: #34568b;
   }

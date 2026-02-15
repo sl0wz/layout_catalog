@@ -1,10 +1,10 @@
 .catalog {
-  padding: 50px 40px;
+  padding: $catalog-padding-y $catalog-padding-x;
   display: grid;
   justify-content: center;
 
   grid-template-columns: 1fr;
-  gap: 46px 48px;
+  gap: $catalog-gap-row $catalog-gap-column;
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, $card-width);
